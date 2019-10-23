@@ -21,9 +21,18 @@ class Calc extends React.Component {
 
     }
 
-    temperatureInCelsius(){}
+    temperatureInCelsius(){
 
-    temperatureInFahrenheit(){}
+        if(this.state.scale === 'celsius')
+            return
+        return 
+    }
+
+    temperatureInFahrenheit(){
+        if(this.state.scale === 'fahrenheit')
+            return
+        return    
+    }
 
     updateCelsius(){}
 
